@@ -2,11 +2,28 @@
 
 <html>
     <head>
-    <style>
+    <style> /* table design */
         table,th,td {
             border: 1px solid black;
         }
+
+    /* style for elements with the id "myHeader" */
+    #myHeader {
+        background-color: lightseagreen;
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }   
+    
+    /*style for elements with the class name games*/
+    .games {
+        background-color: purple;
+        color: white;
+        padding: 10px;
+    }
     </style>
+    </head>
+
     <body>
     <section>
     <header>
@@ -55,12 +72,28 @@
             <li> Starcraft</li>
             <li> Valorant</li>
         </ol>
+
     </aside>
     </section>
-        
+
+    <h6> Descriptions of the Video Games I like</h6>
+    <h7 id ="myHeader"> Favorite Video Games </h7>
+
+    <h2 class = "games"> Genshin Impact </h2>
+    <p> Anime open world Gatcha game, I spend a lot of money on this game xd</p>
+
+    <h2 class ="games"> League of Legends</h2>
+    <p> MOBA "Multiplayer Online Battle Arena" where two teams compete with one another to destory one anothers base </p>
+
+    <h2 class ="games"> Starcraft </h2>
+    <p> RTS "Real Time Strategy" Where two players pick one of three races, Terran, Zerg, Protoss, build your own base and destroy the opponents another bases </p>
+
+    <h2 class ="games"> Valorant </h2>
+    <p> FPS "First Person Shooter" similar to Counter Strike, where two teams of five players have goals of difusing or planting a bomb, as well as eliminating the whole enemy team</p>
+    
     <header>
     <section>
-        <h6> Now enjoy a picture of me in a cow suit</h6>
+        <p style ="color: green"> Now enjoy a picture of me in a cow suit</p>
         <img src="mecow.jpg" width = "300">
     </section>
     </header>
@@ -70,9 +103,5 @@
         <p>My Contact Information: <a href="mailto:gtp@hawaii.edu"> gtp@hawaii.edu</a></p>
     </footer>
     </body>
-
-    </head>
-
-
 
 </html>
